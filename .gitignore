@@ -1,0 +1,32 @@
+# Build artifacts
+/build/
+**/build/
+/bin/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Qt / qmake
+*.pro.user
+*.user
+*.qmake.stash
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Objects and libraries
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Logs
+*.log
+
+# OS
+.DS_Store
